@@ -1,0 +1,82 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/xueyuan/list",
+    "pages/xueyuan/add-or-update",
+    "pages/xueyuan/detail",
+    "pages/jiaolian/list",
+    "pages/jiaolian/add-or-update",
+    "pages/jiaolian/detail",
+    "pages/jiaxiaoxinxi/list",
+    "pages/jiaxiaoxinxi/add-or-update",
+    "pages/jiaxiaoxinxi/detail",
+    "pages/jiaxiaocheliang/list",
+    "pages/jiaxiaocheliang/add-or-update",
+    "pages/jiaxiaocheliang/detail",
+    "pages/jiaolianyuyue/list",
+    "pages/jiaolianyuyue/add-or-update",
+    "pages/jiaolianyuyue/detail",
+    "pages/kaoshixinxi/list",
+    "pages/kaoshixinxi/add-or-update",
+    "pages/kaoshixinxi/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "微信小程序的驾校预约管理系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#BBBBBB",
+    "selectedColor": "#FF944D",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/jiaxiaoxinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "驾校信息"
+      },
+      {
+        "pagePath": "pages/kaoshixinxi/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "考试信息"
+      },
+      {
+        "pagePath": "pages/news/list",
+        "iconPath": "static/tabs/news.png",
+        "selectedIconPath": "static/tabs/news_act.png",
+        "text": "新闻资讯"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
